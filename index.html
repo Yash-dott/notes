@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Notes</title>
+</head>
+
+<body>
+    <div class="card_container">
+
+        <div class="add_btn_card add_card_toggle">
+            <div class="add_image">
+                <img src="assets/images/plus.png" alt="">
+            </div>
+            <div class="add_text">
+                <h2>Add Note</h2>
+            </div>
+        </div>
+
+
+        <!-- ?note_card -->
+        <div class="note_card_cont"></div>
+
+
+
+
+
+        <div class="add_update_card_cont " style="display: none;">
+            <div class="add_update_card">
+                <div class="card_header">
+                    <div class="card_header_text">
+                        <h2 class="add_edit_box_title">Add a Note</h2>
+                    </div>
+                    <div class="card_header_btn add_card_toggle">
+                        <img src="assets/images/icons8-multiply-24.png" alt="">
+                    </div>
+                </div>
+                <div class="note_contents">
+                    <span>Note Title</span>
+                    <input type="text" value="" placeholder="Note Title" id="add_note_title">
+                    <span>Note Description</span>
+                    <input type="text" value="" placeholder="Note Description" id="add_note_desc">
+                </div>
+                <div class="note_add_btn">
+                    <button id="add_note_btn">Add Note</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+<script src="assets/js/main.js"></script>
+
+</html>
